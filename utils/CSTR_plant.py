@@ -5,7 +5,7 @@ Created on Mon Sep 28 00:31:51 2020
 @author: a.h
 """
 
-
+import numpy as np
 
 def CSTR_plant(u) :
     import numpy as np

@@ -67,9 +67,9 @@ while loop_circle < 100:
                 print('ya abolfazlllllleeeeee')
                 state = Enter_state(error)      
                 print('state',state)  
-                (A,y_out,loop_circle,loop_Q_Learning,error_mse) = Q_Learning_Algorithm (fault,state,State,Reward,Policy,CSTR_plant,loop_circle,y_out,error_mse)
+                # (A,y_out,loop_circle,loop_Q_Learning,error_mse) = Q_Learning_Algorithm (fault,state,State,Reward,Policy,CSTR_plant,loop_circle,y_out,error_mse)
                 # a=1
-                # (A,y_out,loop_circle,loop_Q_Learning,error_mse) = Duble_Q_Learning(fault,state,State,Reward,Policy,CSTR_plant,loop_circle,y_out,error_mse)
+                (A,y_out,loop_circle,loop_Q_Learning,error_mse) = Duble_Q_Learning(fault,state,State,Reward,Policy,CSTR_plant,loop_circle,y_out,error_mse)
                 print(y_out)
                 print('looooooppppp',loop_circle)
                 a=1
